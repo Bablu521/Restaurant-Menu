@@ -11,7 +11,7 @@ class MealItem extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(20),
       width: double.infinity,
-      height: 150,
+      height: 120,
       decoration: BoxDecoration(
           color: Colors.teal,
           borderRadius: BorderRadius.only(topRight: Radius.circular(60))),
@@ -19,8 +19,8 @@ class MealItem extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            width: 150,
-            height: 150,
+            width: 120,
+            height: 120,
             decoration: BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(meal.imageUrl), fit: BoxFit.fill)),
@@ -30,7 +30,7 @@ class MealItem extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
-              fontSize: 22,
+              fontSize: 18,
             ),
           ),
           IconButton(

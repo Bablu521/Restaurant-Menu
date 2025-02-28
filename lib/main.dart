@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_menu/constant/route.dart';
+import 'package:restaurant_menu/screens/entery_screen.dart';
 import 'package:restaurant_menu/screens/home_screen.dart';
 import 'package:restaurant_menu/screens/meal_details_screen.dart';
 import 'package:restaurant_menu/screens/meal_screen.dart';
@@ -16,9 +17,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: MaterialApp(routes: {
+        AppRoute.homeScreen: (context)=> HomeScreen(),
         AppRoute.mealScreen: (context) => MealScreen(),
         AppRoute.mealDetailsScreen: (context) => MealDetailsScreen(),
-      }, debugShowCheckedModeBanner: false, home: HomeScreen()),
+      }, debugShowCheckedModeBanner: false, home: EnteryScreen()),
     );
   }
 }

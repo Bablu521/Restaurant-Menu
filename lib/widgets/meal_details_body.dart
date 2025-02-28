@@ -35,7 +35,7 @@ class MealDetailsBody extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 35,
+                  fontSize: 30,
                 ),
               ),
               selectedMeal.description.isNotEmpty

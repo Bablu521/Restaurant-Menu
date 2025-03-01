@@ -6,7 +6,7 @@ import 'package:restaurant_menu/widgets/meal_item.dart';
 class MealBody extends StatelessWidget {
   final String id;
   final String name;
-  const MealBody({required this.id, required this.name});
+  const MealBody({super.key,required this.id, required this.name});
 
   @override
   Widget build(BuildContext context) {

@@ -4,7 +4,7 @@ import 'package:restaurant_menu/model/category.dart';
 
 class CategoryItem extends StatelessWidget {
   final Category category;
-  const CategoryItem({required this.category});
+  const CategoryItem({super.key,required this.category});
 
   @override
   Widget build(BuildContext context) {

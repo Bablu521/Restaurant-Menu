@@ -4,7 +4,7 @@ import 'package:restaurant_menu/model/meal.dart';
 
 class MealItem extends StatelessWidget {
   final Meal meal;
-  const MealItem({required this.meal});
+  const MealItem({super.key,required this.meal});
 
   @override
   Widget build(BuildContext context) {
